@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/alexandernitiola/development/personal/swift/swift-crash-course/closures.playground">
+   </FileRef>
+   <FileRef
       location = "group:object_types.playground">
    </FileRef>
    <FileRef
