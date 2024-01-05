@@ -50,6 +50,13 @@ extension Int {
 1.say_hello();
 
 class Names {
+    static func pronounce() -> Void {
+        print("My name is Alexander");
+    }
+    
+    var name: String = "Alexander";
+    var age: Int8 = 0;
+    
     init(name: String, age: Int8) {
         self.name = name;
         self.age = age;
@@ -59,16 +66,9 @@ class Names {
         self.name = word;
     }
     
-    var name: String = "Alexander";
-    var age: Int8 = 0;
-    
     func check_name(name: String) -> Void {
         Swift.print("\(name) \(self.name)");
         print("\(name) \(self.name) | \(self.age)");
-    }
-    
-    static func pronounce() -> Void {
-        print("My name is Alexander");
     }
 }
 
